@@ -10,3 +10,38 @@
     display: table;
     clear: both;
 }
+
+/* debug rules */
+.debug .menu {
+    height: 100px;
+    background-color: pink;
+}
+
+main>div {
+    height: 200px;
+}
+
+.debug .section1 {
+    background-color: blue;
+}
+
+.debug .section2 {
+    background-color: lightgrey;
+}
+
+.debug .section3 {
+    background-color: gray;
+}
+
+.debug .section4 {
+    background-color: lightgrey;
+}
+
+.debug .section5 {
+    background-color: gray;
+}
+
+.debug .footer {
+    height: 250px;
+    background-color: lightblue;
+}
