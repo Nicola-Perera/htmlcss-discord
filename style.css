@@ -41,7 +41,15 @@ main>div {
     background-color: gray;
 }
 
-.debug .footer {
+.debug .contatti {
     height: 250px;
     background-color: lightblue;
+}
+
+.debug .container {
+    width: 60%;
+    height: 100%;
+    margin: 0 20%;
+    background-color: white;
+    opacity: 0.5;
 }
