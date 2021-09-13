@@ -17,39 +17,128 @@
     background-color: pink;
 }
 
-main>div {
+.debug .logo, #login {
+    background-color: green;
+}
+
+.debug #nav {
+    background-color: brown;
+}
+/* end debug header */
+
+.debug main>div {
     height: 200px;
 }
 
-.debug .section1 {
+.debug #banner {
     background-color: blue;
 }
 
-.debug .section2 {
+.debug #chat {
     background-color: lightgrey;
 }
 
-.debug .section3 {
+.debug #voice {
     background-color: gray;
 }
 
-.debug .section4 {
+.debug #roles {
     background-color: lightgrey;
 }
 
-.debug .section5 {
+.debug #technology {
     background-color: gray;
 }
+
+.debug .container {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.debug .preview {
+    background-color: violet;
+}
+
+.debug .description {
+    background-color: red;
+}
+/* end debug main */
 
 .debug .contatti {
     height: 250px;
     background-color: lightblue;
 }
 
-.debug .container {
+.social {
+    background-color: yellow;
+}
+
+.prodotto {
+    background-color: rgb(255, 208, 0);
+}
+
+.compagnia {
+    background-color: yellowgreen;
+}
+
+.risorse {
+    background-color: orange;
+}
+
+.norme {
+    background-color: orangered;
+}
+
+
+/* end debug footer */
+
+
+/* common rules */
+.container {
     width: 60%;
     height: 100%;
     margin: 0 20%;
-    background-color: white;
-    opacity: 0.5;
 }
+
+.logo, #login {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#nav {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.preview, .description{
+    height: 100%;
+    float: left;
+}
+
+.preview {
+    width: 60%;
+}
+
+.description {
+    width: 40%;
+}
+
+.link {
+    width: 15%;
+    height: 100%;
+}
+
+.social {
+    width: 40%;
+}
+
+.container>div {
+    float: left;
+}
+
+
+
+
+
