@@ -92,6 +92,10 @@
 
 
 /* common rules */
+body {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+}
 
 
 header {
@@ -149,11 +153,47 @@ main>div {
     height: 500px;
 }
 
+#banner>div {
+    color: white;
+    width: 42%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #banner {
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
+
+}
+
+#banner h1 {
+    height: 60px;
+}
+#banner p {
+    font-size: ;
+}
+#banner h2 {
+    padding: .5rem;
+    font-size: 16px;
+    border-radius: 2rem;
+    float: left;
+}
+#mac {
+    background-color: white;
+    color: #23272a;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 1rem;
+}
+#browser {
+    background-color: #23272a;
+    width: 55%;
+    margin-top: 1rem;
 }
 
 .preview, .description{
