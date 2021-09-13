@@ -196,17 +196,30 @@ main>div {
     margin-top: 1rem;
 }
 
+main .container {
+    width: 80%;
+    height: 90%;
+    margin: 5% 10%;
+}
+
 .preview, .description{
     height: 100%;
     float: left;
 }
 
 .preview {
-    width: 60%;
+    width: 70%;
 }
 
 .description {
-    width: 40%;
+    line-height: 50px;
+    font-size: 25px;
+    width: 30%;
+}
+.description>p {
+    font-size: 20px;
+    margin-top: 2rem;
+    line-height: 30px;
 }
 /* fine main */
 
